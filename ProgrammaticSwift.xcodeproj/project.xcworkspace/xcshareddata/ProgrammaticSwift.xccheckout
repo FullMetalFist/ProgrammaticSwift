@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0F98CF08-C7B6-4ECD-8BB6-CF06010D89BD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ProgrammaticSwift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>291D2737452204C27D81D8C1C3077AEF2FCEC56E</key>
+		<string>github.com:FullMetalFist/ProgrammaticSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ProgrammaticSwift.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>291D2737452204C27D81D8C1C3077AEF2FCEC56E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:FullMetalFist/ProgrammaticSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>291D2737452204C27D81D8C1C3077AEF2FCEC56E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>291D2737452204C27D81D8C1C3077AEF2FCEC56E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ProgrammaticSwift</string>
+		</dict>
+	</array>
+</dict>
+</plist>

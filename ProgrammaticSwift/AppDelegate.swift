@@ -26,8 +26,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        var viewControllerTwo = ViewControllerTwo()
-        var navigationController = UINavigationController(rootViewController: viewControllerTwo)
+//        var viewControllerTwo = ViewControllerTwo()
+        var viewControllerThree = ViewControllerThree()
+        var navigationController = UINavigationController(rootViewController: viewControllerThree)
         window?.backgroundColor = UIColor.whiteColor()
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
