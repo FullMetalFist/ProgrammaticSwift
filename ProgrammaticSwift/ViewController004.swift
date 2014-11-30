@@ -1,22 +1,20 @@
 //
-//  ViewControllerFour.swift
+//  ViewController004.swift
 //  ProgrammaticSwift
 //
-//  Created by Michael Vilabrera on 11/28/14.
+//  Created by Michael Vilabrera on 11/30/14.
 //  Copyright (c) 2014 Giving Tree. All rights reserved.
 //
 
 import UIKit
 
-class ViewControllerFour: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+class ViewController004: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     var collectionView: UICollectionView?
-    
-    let allSectionColors = [
-        UIColor.redColor(),
-        UIColor.greenColor(),
-        UIColor.blueColor(),
-        UIColor.orangeColor()]
+    let allSectionColors = [UIColor.redColor(),
+                            UIColor.blueColor(),
+                            UIColor.greenColor(),
+                            UIColor.yellowColor()]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,20 +31,20 @@ class ViewControllerFour: UIViewController, UICollectionViewDataSource, UICollec
         self.view.addSubview(collectionView!)
     }
     
-    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
-        return allSectionColors.count
-    }
-    
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 14
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("ident", forIndexPath: indexPath) as UICollectionViewCell
-        cell.backgroundColor = allSectionColors[indexPath.section]
+        cell.backgroundColor = allSectionColors[indexPath.section];
         return cell
     }
     
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+        return allSectionColors.count
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

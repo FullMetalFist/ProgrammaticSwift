@@ -15,23 +15,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     /* create major view controllers:
     
-    ViewController() -> initial
-    ViewControllerTwo() -> for programmatic push segues
-    ViewControllerThree() -> show a table view
-    ViewControllerFour() -> show a collection view          // why can't I assign it to a variable??
+    ViewController001() -> initial
+    ViewController002() -> for programmatic push segues with navigationController
+    ViewController003() -> show a table view
+    ViewController004() -> show a collection view
     
     */
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
-//        var viewControllerTwo = ViewControllerTwo()
-//        var viewControllerThree = ViewControllerThree()
-        var viewControllerFour = ViewControllerFour()
-        var navigationController = UINavigationController(rootViewController: viewControllerFour)
+//        var viewController001 = ViewController001()
+//        var viewController002 = ViewController002()
+//        var navigationController = UINavigationController(rootViewController: viewController002)
+//        var viewController003 = ViewController003()
+        var viewController004 = ViewController004()
         window?.backgroundColor = UIColor.whiteColor()
-        window?.rootViewController = viewControllerFour
+//        window?.rootViewController = navigationController
+        window?.rootViewController = viewController004
         window?.makeKeyAndVisible()
         
         return true
