@@ -11,6 +11,7 @@ import UIKit
                                                      cellForRowAtIndexPath */
 class ViewControllerThree: UIViewController, UITableViewDataSource {
 
+    // create the actual tableView object
     var tableView: UITableView?
     
     override func viewDidLoad() {
@@ -55,6 +56,7 @@ class ViewControllerThree: UIViewController, UITableViewDataSource {
     }
     
     // not required for dataSource importing
+    // won't work if we place viewController inside a navController!
     override func prefersStatusBarHidden() -> Bool {
         return true
     }

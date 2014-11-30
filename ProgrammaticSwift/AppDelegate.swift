@@ -17,8 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     ViewController() -> initial
     ViewControllerTwo() -> for programmatic push segues
-    TableViewController() -> show a table view
-    CollectionViewController() -> show a collection view
+    ViewControllerThree() -> show a table view
+    ViewControllerFour() -> show a collection view          // why can't I assign it to a variable??
     
     */
 
@@ -27,10 +27,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
 //        var viewControllerTwo = ViewControllerTwo()
-        var viewControllerThree = ViewControllerThree()
-        var navigationController = UINavigationController(rootViewController: viewControllerThree)
+//        var viewControllerThree = ViewControllerThree()
+        var viewControllerFour = ViewControllerFour()
+        var navigationController = UINavigationController(rootViewController: viewControllerFour)
         window?.backgroundColor = UIColor.whiteColor()
-        window?.rootViewController = navigationController
+        window?.rootViewController = viewControllerFour
         window?.makeKeyAndVisible()
         
         return true

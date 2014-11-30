@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7C366E631A252FBA00301328 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C366E621A252FBA00301328 /* Default-568h@2x.png */; };
 		7C366E951A28F9D400301328 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C366E941A28F9D400301328 /* ViewControllerThree.swift */; };
+		7C366E971A2920B600301328 /* ViewControllerFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C366E961A2920B600301328 /* ViewControllerFour.swift */; };
 		7C9BD5C61A1FA0C800E051A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9BD5C51A1FA0C800E051A9 /* AppDelegate.swift */; };
 		7C9BD5C81A1FA0C800E051A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9BD5C71A1FA0C800E051A9 /* ViewController.swift */; };
 		7C9BD5CD1A1FA0C800E051A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C9BD5CC1A1FA0C800E051A9 /* Images.xcassets */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		7C366E621A252FBA00301328 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7C366E941A28F9D400301328 /* ViewControllerThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
+		7C366E961A2920B600301328 /* ViewControllerFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFour.swift; sourceTree = "<group>"; };
 		7C9BD5C01A1FA0C800E051A9 /* ProgrammaticSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammaticSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9BD5C41A1FA0C800E051A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C9BD5C51A1FA0C800E051A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				7C9BD5C71A1FA0C800E051A9 /* ViewController.swift */,
 				7CF6DF051A23DB4700FF74C7 /* ViewControllerTwo.swift */,
 				7C366E941A28F9D400301328 /* ViewControllerThree.swift */,
+				7C366E961A2920B600301328 /* ViewControllerFour.swift */,
 				7C9BD5CC1A1FA0C800E051A9 /* Images.xcassets */,
 				7C9BD5C31A1FA0C800E051A9 /* Supporting Files */,
 			);
@@ -216,6 +219,7 @@
 			files = (
 				7CF6DF061A23DB4700FF74C7 /* ViewControllerTwo.swift in Sources */,
 				7C366E951A28F9D400301328 /* ViewControllerThree.swift in Sources */,
+				7C366E971A2920B600301328 /* ViewControllerFour.swift in Sources */,
 				7C9BD5C81A1FA0C800E051A9 /* ViewController.swift in Sources */,
 				7C9BD5C61A1FA0C800E051A9 /* AppDelegate.swift in Sources */,
 			);
