@@ -12,6 +12,12 @@ class ViewControllerFour: UIViewController, UICollectionViewDataSource, UICollec
     
     var collectionView: UICollectionView?
     
+    let allSectionColors = [
+        UIColor.redColor(),
+        UIColor.greenColor(),
+        UIColor.blueColor(),
+        UIColor.orangeColor()]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,13 +33,17 @@ class ViewControllerFour: UIViewController, UICollectionViewDataSource, UICollec
         self.view.addSubview(collectionView!)
     }
     
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+        return allSectionColors.count
+    }
+    
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 14
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("ident", forIndexPath: indexPath) as UICollectionViewCell
-        cell.backgroundColor = UIColor.orangeColor()
+        cell.backgroundColor = allSectionColors[indexPath.section]
         return cell
     }
     
