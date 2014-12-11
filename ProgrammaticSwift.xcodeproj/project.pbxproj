@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7C366E631A252FBA00301328 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C366E621A252FBA00301328 /* Default-568h@2x.png */; };
 		7C8E2C7F1A38F116007B9CD9 /* ViewController005.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8E2C7E1A38F116007B9CD9 /* ViewController005.swift */; };
+		7C8E2C811A3A3257007B9CD9 /* ViewController006.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8E2C801A3A3257007B9CD9 /* ViewController006.swift */; };
 		7C9BD5C61A1FA0C800E051A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9BD5C51A1FA0C800E051A9 /* AppDelegate.swift */; };
 		7C9BD5CD1A1FA0C800E051A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C9BD5CC1A1FA0C800E051A9 /* Images.xcassets */; };
 		7C9BD5DC1A1FA0C800E051A9 /* ProgrammaticSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9BD5DB1A1FA0C800E051A9 /* ProgrammaticSwiftTests.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		7C366E621A252FBA00301328 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7C8E2C7E1A38F116007B9CD9 /* ViewController005.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController005.swift; sourceTree = "<group>"; };
+		7C8E2C801A3A3257007B9CD9 /* ViewController006.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController006.swift; sourceTree = "<group>"; };
 		7C9BD5C01A1FA0C800E051A9 /* ProgrammaticSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammaticSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9BD5C41A1FA0C800E051A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C9BD5C51A1FA0C800E051A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			children = (
 				7C9BD5C51A1FA0C800E051A9 /* AppDelegate.swift */,
 				7C8E2C7E1A38F116007B9CD9 /* ViewController005.swift */,
+				7C8E2C801A3A3257007B9CD9 /* ViewController006.swift */,
 				7CFCF3A61A2BA413009CD7A6 /* ViewController004.swift */,
 				7CFCF3A41A2B9256009CD7A6 /* ViewController003.swift */,
 				7CFCF3A21A2B8D85009CD7A6 /* ViewController002.swift */,
@@ -224,6 +227,7 @@
 				7CFCF3A11A2B8CC0009CD7A6 /* ViewController001.swift in Sources */,
 				7C8E2C7F1A38F116007B9CD9 /* ViewController005.swift in Sources */,
 				7CFCF3A71A2BA413009CD7A6 /* ViewController004.swift in Sources */,
+				7C8E2C811A3A3257007B9CD9 /* ViewController006.swift in Sources */,
 				7C9BD5C61A1FA0C800E051A9 /* AppDelegate.swift in Sources */,
 				7CFCF3A31A2B8D85009CD7A6 /* ViewController002.swift in Sources */,
 			);

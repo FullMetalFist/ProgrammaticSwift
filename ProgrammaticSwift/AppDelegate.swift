@@ -21,6 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     ViewController004() -> show a collection view
     ViewController005() -> show autoLayout
     
+    ViewController006() -> from tutorial
+    
     */
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
@@ -31,10 +33,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        var navigationController = UINavigationController(rootViewController: viewController002)
 //        var viewController003 = ViewController003()
 //        var viewController004 = ViewController004()
-        var viewController005 = ViewController005()
+        var viewController006 = ViewController006()
         window?.backgroundColor = UIColor.whiteColor()
 //        window?.rootViewController = navigationController
-        window?.rootViewController = viewController005
+        window?.rootViewController = viewController006
         window?.makeKeyAndVisible()
         
         return true

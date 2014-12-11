@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController005: UIViewController {
     
+    // create label, strings, and button
+    var label: UILabel!
+    let sleep = "ZzzzZzz"
+    let awake = "OH YEAH"
+    var button: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,7 +38,7 @@ class ViewController005: UIViewController {
         view.addSubview(view2)
         
         // make dictionary
-        let viewsDictionary = ["view1":view1, "view2":view2]
+        let viewsDictionary = ["view1":view1, "view2":view2, "button":button, "label":label]
         // metrics
         let metricsDictionary = ["view1Height":50.0,"view2Height":40.0,"viewWidth":100.0]
         // size constraints
@@ -53,6 +59,34 @@ class ViewController005: UIViewController {
         view.addConstraints(view_constraint_H)
         view.addConstraints(view_constraint_V)
         
+//        // create label, strings, and button
+//        var label: UILabel!
+//        let sleep = "ZzzzZzz"
+//        let awake = "OH YEAH"
+//        var button: UIButton!
+        
+        label.text = sleep
+        label.setTranslatesAutoresizingMaskIntoConstraints(false)
+        button.setTranslatesAutoresizingMaskIntoConstraints(false)
+        button.setTitle("Unicorny", forState: UIControlState.Normal)
+        button.addTarget(self, action: "buttonPressed", forControlEvents: UIControlEvents.TouchUpInside)
+        button.backgroundColor = UIColor.redColor()     // for some reason I couldn't set to blue
+        button.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        
+        // controls
+        let control_constraint_H:Array = NSLayoutConstraint.constraintsWithVisualFormat("H:|-[button(>=80)]-20-[label(>=100)]", options: NSLayoutFormatOptions.AlignAllCenterY, metrics: nil, views: viewsDictionary)
+        let control_constraint_V:Array = NSLayoutConstraint.constraintsWithVisualFormat("V:[button]-40-|", options: NSLayoutFormatOptions(0), metrics: nil, views: viewsDictionary)
+        view2.addConstraints(control_constraint_H)
+        view2.addConstraints(control_constraint_V)
+    }
+    
+    func buttonPressed() {
+        if label.text == sleep {
+            label.text = awake
+        }
+        else {
+            label.text = sleep
+        }
     }
     
     override func supportedInterfaceOrientations() -> Int {
