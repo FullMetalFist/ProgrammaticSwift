@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     ViewController002() -> for programmatic push segues with navigationController
     ViewController003() -> show a table view
     ViewController004() -> show a collection view
+    ViewController005() -> show autoLayout
     
     */
 
@@ -29,10 +30,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        var viewController002 = ViewController002()
 //        var navigationController = UINavigationController(rootViewController: viewController002)
 //        var viewController003 = ViewController003()
-        var viewController004 = ViewController004()
+//        var viewController004 = ViewController004()
+        var viewController005 = ViewController005()
         window?.backgroundColor = UIColor.whiteColor()
 //        window?.rootViewController = navigationController
-        window?.rootViewController = viewController004
+        window?.rootViewController = viewController005
         window?.makeKeyAndVisible()
         
         return true

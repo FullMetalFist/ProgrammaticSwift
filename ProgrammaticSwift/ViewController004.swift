@@ -32,7 +32,7 @@ class ViewController004: UIViewController, UICollectionViewDataSource, UICollect
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 14
+        return 1
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
