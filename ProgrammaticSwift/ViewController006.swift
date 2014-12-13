@@ -9,7 +9,9 @@
 import UIKit
 
 class ViewController006: UIViewController {
-
+    
+    // this is NOT MY CODE
+    // from: http://makeapppie.com/2014/07/26/the-swift-swift-tutorial-how-to-use-uiviews-with-auto-layout-programmatically/
     // Note: you could set up these views like this, which is closer to thier Obj-C counterparts:
     // var label1:UILabel! = UILabel() as UILabel
     // var button1:UIButton! = UIButton.buttonWithType(UIButtonType.System) as UIButton
