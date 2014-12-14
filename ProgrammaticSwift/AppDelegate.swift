@@ -12,6 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var coder: NSCoder!
     
     /* create major view controllers:
     
@@ -22,21 +23,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     ViewController005() -> show autoLayout
     
     ViewController006() -> from tutorial
-    
+    ViewController007() -> mapKit attempt
     */
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        coder = NSCoder()
 //        var viewController001 = ViewController001()
 //        var viewController002 = ViewController002()
 //        var navigationController = UINavigationController(rootViewController: viewController002)
 //        var viewController003 = ViewController003()
 //        var viewController004 = ViewController004()
-        var viewController006 = ViewController006()
+        var viewController007 = ViewController007(coder: coder)
         window?.backgroundColor = UIColor.whiteColor()
 //        window?.rootViewController = navigationController
-        window?.rootViewController = viewController006
+        window?.rootViewController = viewController007
         window?.makeKeyAndVisible()
         
         return true
